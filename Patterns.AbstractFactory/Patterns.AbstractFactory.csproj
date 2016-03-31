@@ -44,11 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="FaturamentoFactory.cs" />
-    <Compile Include="FaturamentoPessoaFisica.cs" />
-    <Compile Include="FaturamentoPessoaJuridica.cs" />
-    <Compile Include="IFaturamento.cs" />
+    <Compile Include="Factories\FaturamentoPessoaFisica.cs" />
+    <Compile Include="Factories\FaturamentoPessoaJuridica.cs" />
+    <Compile Include="Faturamentos\Faturamento920.cs" />
+    <Compile Include="Interfaces\IFaturamentoFactory.cs" />
+    <Compile Include="Interfaces\IFaturamentoIndividual.cs" />
+    <Compile Include="Interfaces\IFaturamentoLote.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
