@@ -46,7 +46,10 @@
   <ItemGroup>
     <Compile Include="Factories\FaturamentoPessoaFisica.cs" />
     <Compile Include="Factories\FaturamentoPessoaJuridica.cs" />
+    <Compile Include="Faturamentos\Faturamento640.cs" />
+    <Compile Include="Faturamentos\Faturamento641.cs" />
     <Compile Include="Faturamentos\Faturamento920.cs" />
+    <Compile Include="Faturamentos\Faturamento921.cs" />
     <Compile Include="Interfaces\IFaturamentoFactory.cs" />
     <Compile Include="Interfaces\IFaturamentoIndividual.cs" />
     <Compile Include="Interfaces\IFaturamentoLote.cs" />
