@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapters\ImagemSurfaceAdapter.cs" />
+    <Compile Include="Interfaces\IOpenGl.cs" />
+    <Compile Include="ClassesConcretas\ImagemOpenGl.cs" />
+    <Compile Include="Adapters\ImagemOpenGlAdapter.cs" />
+    <Compile Include="ClassesConcretas\ImagemSurfaceSdl.cs" />
+    <Compile Include="Interfaces\ISurface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
