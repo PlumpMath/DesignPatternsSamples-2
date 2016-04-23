@@ -50,6 +50,7 @@
     <Compile Include="Faturamentos\Faturamento641.cs" />
     <Compile Include="Faturamentos\Faturamento920.cs" />
     <Compile Include="Faturamentos\Faturamento921.cs" />
+    <Compile Include="Interfaces\IFaturamentoFactory.cs" />
     <Compile Include="Interfaces\IFaturamentoIndividual.cs" />
     <Compile Include="Interfaces\IFaturamentoLote.cs" />
     <Compile Include="Program.cs" />
